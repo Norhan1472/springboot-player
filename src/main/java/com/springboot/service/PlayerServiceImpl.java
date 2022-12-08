@@ -8,10 +8,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Transactional
-@Service
-public class PlayerServiceImpl implements PlayerService {
-    @Autowired
+//@Transactional
+//@Service
+public class PlayerServiceImpl //implements PlayerService
+         {
+   /* @Autowired
     PlayerDao playerDao;
 
     public PlayerServiceImpl(PlayerDao playerDao) {
@@ -24,6 +25,7 @@ public class PlayerServiceImpl implements PlayerService {
     }
 
     @Override
+
     public Player getDataById(long id) {
         return playerDao.findById(id).get();
     }
@@ -38,5 +40,5 @@ public class PlayerServiceImpl implements PlayerService {
         playerDao.deleteById(id);
     }
 
-
+*/
 }

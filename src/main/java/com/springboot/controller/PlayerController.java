@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("/api")
+//@RestController
+//@RequestMapping("/api")
 public class PlayerController {
-    @Autowired
+ /*   @Autowired
     PlayerService playerService;
 
     public PlayerController(PlayerService playerService) {
@@ -47,5 +47,5 @@ public class PlayerController {
             throw new RuntimeException("player isn't exist");
         }
         playerService.deleteData(id);
-    }
+    }*/
 }

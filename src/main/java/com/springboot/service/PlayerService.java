@@ -6,11 +6,11 @@ import java.util.List;
 
 public interface PlayerService {
 
-    public List<Player> getData();
+   /* public List<Player> getData();
 
     public Player getDataById(long id);
 
     public void addData(Player player);
 
-    public void deleteData(long id);
+    public void deleteData(long id);*/
 }
